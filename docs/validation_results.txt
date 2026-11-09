@@ -1,0 +1,84 @@
+=== 1. Row counts ===
+        tbl        | actual | expected | status 
+-------------------+--------+----------+--------
+ brand             |     20 |       20 | PASS
+ category          |     25 |       25 | PASS
+ seller            |     50 |       50 | PASS
+ customer          |  30000 |    30000 | PASS
+ product           |   3000 |     3000 | PASS
+ promotion         |     30 |       30 | PASS
+ promotion_product |    500 |      500 | PASS
+(7 rows)
+
+=== 2. Business rules the database does NOT enforce ===
+                    check_name                     | violations | status 
+---------------------------------------------------+------------+--------
+ category: sub-category parent is not level 1      |          0 | PASS
+ category: child created before parent             |          0 | PASS
+ product: linked to a main (level 1) category      |          0 | PASS
+ product: created before its category              |          0 | PASS
+ product: created before its brand                 |          0 | PASS
+ product: created before seller joined             |          0 | PASS
+ promo_product: link created before promotion      |          0 | PASS
+ promo_product: link created after promotion start |          0 | PASS
+ promo_product: inactive product in a promotion    |          0 | PASS
+ promo_product: fixed discount >= product price    |          0 | PASS
+ promotion: category promo spans >1 category       |          0 | PASS
+ promotion: seller promo spans >1 seller           |          0 | PASS
+(12 rows)
+
+=== 3. Data profile (look, no PASS/FAIL) ===
+ seller_type | count 
+-------------+-------
+ Official    |     9
+ Marketplace |    41
+(2 rows)
+
+ gender | count 
+--------+-------
+ Female | 14943
+ Male   | 15057
+(2 rows)
+
+ is_active | count 
+-----------+-------
+ f         |   282
+ t         |  2718
+(2 rows)
+
+   main_category   | products | min_price |  max_price  
+-------------------+----------+-----------+-------------
+ Beauty & Health   |      624 | 102000.00 |  2000000.00
+ Electronics       |      626 | 632000.00 | 49967000.00
+ Fashion           |      603 | 100000.00 |  2998000.00
+ Home & Kitchen    |      587 | 120000.00 | 19999000.00
+ Sports & Outdoors |      560 | 140000.00 | 14973000.00
+(5 rows)
+
+ start_month | promotions 
+-------------+------------
+           1 |          8
+           2 |          5
+           3 |          9
+           4 |          8
+(4 rows)
+
+=== 4. Samples ===
+ customer_name  |          email           |   phone    | gender |         city          
+----------------+--------------------------+------------+--------+-----------------------
+ Khoa Trần      | khoatran1@gmail.com      | 0974651701 | Female | Thành phố Hồ Chí Minh
+ Quý cô Nhật Vũ | quyconhatvu2@outlook.com | 0869045156 | Female | thành phố Hồ Chí Minh
+ Bác Tùng Phạm  | bactungpham3@outlook.com | 0984996163 | Male   | Thành phố Huế
+ Ngọc Đặng      | ngocdang4@gmail.com      | 0911043694 | Female | Thành phố Đà Nẵng
+ Cô Vân Hoàng   | covanhoang5@yahoo.com    | 0880299510 | Female | thành phố Huế
+(5 rows)
+
+               product_name               |   price    | stock_qty | is_active 
+------------------------------------------+------------+-----------+-----------
+ Martin, Lloyd and Ferguson Shoes Lite 33 |  263000.00 |       363 | t
+ Thompson-Webb Men's Clothing Ultra 12    | 2323000.00 |       332 | t
+ Mcdaniel and Sons Skincare Plus 65       |  110000.00 |       192 | t
+ Dougherty and Sons Headphones Plus 79    | 7746000.00 |       402 | t
+ Mccann Group Women's Clothing Mini 28    | 2160000.00 |       136 | t
+(5 rows)
+

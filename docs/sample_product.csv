@@ -1,0 +1,101 @@
+product_id,product_name,category_id,brand_id,seller_id,price,stock_qty,rating,created_at,is_active
+1,"Martin, Lloyd and Ferguson Shoes Lite 33",9,9,41,263000.00,363,3.3,2024-08-31 00:28:00.627905,t
+2,Thompson-Webb Men's Clothing Ultra 12,7,8,3,2323000.00,332,5.0,2024-11-30 05:37:52.663268,t
+3,Mcdaniel and Sons Skincare Plus 65,17,17,32,110000.00,192,4.1,2024-12-27 21:51:22.009704,t
+4,Dougherty and Sons Headphones Plus 79,4,15,42,7746000.00,402,3.6,2024-12-28 13:21:06.9822,t
+5,Mccann Group Women's Clothing Mini 28,8,19,36,2160000.00,136,4.0,2024-11-29 10:01:55.552027,t
+6,Zavala Group Cookware Classic 4,13,4,1,8816000.00,428,3.5,2024-09-08 07:07:29.57403,t
+7,Aguilar Inc Home Decor Mini 92,15,10,18,15969000.00,64,3.3,2024-10-24 13:15:00.977259,t
+8,Walker Group Cookware Mini 44,13,3,48,18906000.00,388,3.1,2024-11-20 09:27:48.535869,t
+9,Baker PLC Headphones Plus 24,4,20,3,2889000.00,405,4.0,2024-08-26 20:35:32.857929,t
+10,Young-Gardner Fragrances Mini 64,19,14,24,550000.00,222,3.8,2024-12-07 01:50:13.982014,t
+11,Walker Group Laptops Pro 25,3,3,46,4354000.00,357,3.3,2024-06-17 19:55:19.738453,t
+12,Walker Group Women's Clothing Plus 9,8,3,22,1752000.00,10,3.2,2024-12-30 01:12:42.74031,t
+13,Weaver-Kline Cameras Lite 21,5,12,35,3130000.00,451,3.8,2024-09-29 23:30:09.406797,t
+14,Baker PLC Cameras Air 67,5,20,6,6280000.00,93,4.9,2024-12-10 08:33:15.500767,t
+15,Mccoy Group Camping Classic 58,23,16,9,13794000.00,126,4.6,2024-06-10 16:11:01.509532,t
+16,Zavala Group Furniture Ultra 39,12,4,39,12588000.00,456,3.5,2024-11-29 23:27:06.787861,t
+17,Aguilar Inc Home Decor Ultra 39,15,10,21,3379000.00,40,4.0,2024-12-31 02:22:25.955474,t
+18,Young-Gardner Shoes Air 9,9,14,1,2781000.00,31,4.6,2024-08-09 18:42:42.219703,t
+19,Weaver-Kline Women's Clothing Max 22,8,12,32,2010000.00,491,4.0,2024-12-17 17:38:33.895997,t
+20,Mcdaniel and Sons Women's Clothing Max 43,8,17,30,2720000.00,136,4.2,2024-10-25 07:02:32.639082,t
+21,Mccann Group Fragrances Mini 97,19,19,7,1461000.00,493,4.4,2024-10-05 21:23:38.096405,t
+22,Baker PLC Furniture Classic 33,12,20,7,212000.00,332,3.6,2024-09-07 04:41:57.638432,t
+23,Schmitt-Campbell Cameras Lite 21,5,7,17,48056000.00,492,4.6,2024-11-27 21:35:53.993197,t
+24,Mcdaniel and Sons Furniture Pro 46,12,17,35,1453000.00,299,3.5,2024-10-26 21:22:36.863089,t
+25,"Gross, Howard and Brown Laptops Plus 64",3,5,24,1657000.00,207,4.1,2024-12-11 11:36:44.29597,f
+26,Baker PLC Shoes Classic 10,9,20,38,239000.00,242,4.0,2024-08-18 07:47:46.291749,t
+27,Hernandez-Harvey Sportswear Air 31,25,13,12,1430000.00,462,4.9,2024-06-27 21:49:50.986484,t
+28,Dougherty and Sons Mobile Phones Ultra 20,2,15,48,17539000.00,202,4.4,2024-10-12 06:15:03.186076,t
+29,Mccoy Group Cameras Max 72,5,16,42,32713000.00,180,3.7,2024-12-30 08:02:49.896224,t
+30,Ryan Group Bags Mini 90,10,18,36,2325000.00,463,3.2,2024-09-16 11:49:18.655347,t
+31,"Gross, Howard and Brown Mobile Phones Ultra 12",2,5,5,48423000.00,138,3.9,2024-12-12 12:24:55.536408,t
+32,Mccann Group Men's Clothing Plus 42,7,19,18,714000.00,443,3.6,2024-12-20 09:57:20.461037,f
+33,Ryan Group Supplements Pro 11,20,18,26,855000.00,8,4.0,2024-11-23 00:17:37.609669,t
+34,"Martin, Lloyd and Ferguson Skincare Plus 68",17,9,11,1091000.00,312,3.7,2024-10-23 00:07:01.85686,t
+35,Aguilar Inc Cookware Max 10,13,10,15,19080000.00,231,3.9,2024-12-19 20:26:20.012328,t
+36,Stafford-Miller Mobile Phones Plus 6,2,1,26,33112000.00,127,3.6,2024-12-12 03:41:35.892405,t
+37,Barrett-Oliver Fitness Equipment Air 44,22,6,22,3439000.00,122,3.3,2024-12-11 04:44:53.266937,t
+38,Aguilar Inc Supplements Pro 21,20,10,11,791000.00,370,3.0,2024-09-24 09:15:18.101607,t
+39,"Martin, Lloyd and Ferguson Cameras Ultra 1",5,9,34,7861000.00,419,3.7,2024-11-21 07:44:37.907519,t
+40,Thompson-Webb Home Decor Pro 12,15,8,45,12872000.00,282,3.8,2024-09-12 12:47:38.586246,t
+41,Barrett-Oliver Camping Ultra 14,23,6,11,6171000.00,427,4.7,2024-10-28 07:01:57.018813,t
+42,"Martin, Lloyd and Ferguson Women's Clothing Max 26",8,9,17,2573000.00,91,3.9,2024-11-08 17:57:17.521455,t
+43,Dougherty and Sons Headphones Pro 90,4,15,4,42636000.00,79,4.1,2024-12-21 06:20:35.499357,t
+44,Hernandez-Harvey Camping Plus 76,23,13,50,9240000.00,73,4.4,2024-09-19 02:03:44.661184,t
+45,Young-Gardner Cookware Lite 84,13,14,4,18212000.00,125,4.0,2024-12-22 22:45:17.30094,t
+46,"Gross, Howard and Brown Camping Max 33",23,5,45,13444000.00,321,4.8,2024-09-06 12:07:54.308774,t
+47,Zavala Group Makeup Classic 59,18,4,2,615000.00,209,4.8,2024-10-20 22:42:04.019378,f
+48,"Hill, Armstrong and Hoover Fitness Equipment Lite 79",22,11,37,11009000.00,73,4.2,2024-10-01 01:52:07.041439,t
+49,Schmitt-Campbell Headphones Ultra 20,4,7,40,14052000.00,93,4.8,2024-06-05 09:20:41.646572,t
+50,"Gross, Howard and Brown Headphones Mini 49",4,5,35,4187000.00,405,4.8,2024-12-25 19:10:55.088343,t
+51,"Martin, Lloyd and Ferguson Laptops Pro 9",3,9,14,5827000.00,217,3.9,2024-12-24 05:15:47.964998,t
+52,Young-Gardner Bedding Max 42,14,14,3,14562000.00,493,4.6,2024-12-16 15:04:48.180574,t
+53,Zavala Group Men's Clothing Max 37,7,4,5,1995000.00,133,3.2,2024-12-07 17:51:32.570044,f
+54,Mccann Group Home Decor Plus 97,15,19,30,10180000.00,392,3.0,2024-09-24 19:45:31.032407,t
+55,"Hill, Armstrong and Hoover Bedding Max 69",14,11,43,13173000.00,253,4.9,2024-10-06 22:16:25.553086,t
+56,Zavala Group Laptops Lite 28,3,4,6,41260000.00,438,4.4,2024-11-10 05:32:35.905052,t
+57,Baker PLC Headphones Max 11,4,20,38,43744000.00,334,4.7,2024-11-28 20:16:07.536042,t
+58,Stafford-Miller Fitness Equipment Ultra 72,22,1,19,9317000.00,190,3.8,2024-11-28 09:11:25.826095,t
+59,Schmitt-Campbell Headphones Classic 26,4,7,50,28883000.00,74,4.3,2024-10-13 13:41:45.992136,t
+60,Weaver-Kline Skincare Max 54,17,12,25,1703000.00,497,3.5,2024-10-01 13:39:23.422845,f
+61,Mccann Group Cookware Pro 64,13,19,41,4014000.00,214,3.1,2024-09-04 08:19:49.887853,t
+62,Schmitt-Campbell Makeup Ultra 10,18,7,35,1170000.00,138,4.4,2024-12-03 16:17:13.183402,t
+63,Zavala Group Cycling Plus 51,24,4,41,3098000.00,269,4.9,2024-12-01 11:57:07.607474,t
+64,Mccann Group Bedding Classic 30,14,19,22,16084000.00,468,3.3,2024-09-18 00:39:35.487721,t
+65,Walker Group Mobile Phones Mini 63,2,3,26,33353000.00,214,3.8,2024-12-20 05:34:34.923759,f
+66,Stafford-Miller Fitness Equipment Lite 99,22,1,47,8611000.00,124,4.6,2024-12-30 22:25:55.595309,t
+67,"Martin, Lloyd and Ferguson Women's Clothing Lite 43",8,9,44,2153000.00,186,4.2,2024-08-24 16:25:20.513566,t
+68,Baker PLC Fragrances Lite 78,19,20,40,1319000.00,322,3.2,2024-11-01 15:36:21.018722,t
+69,"Martin, Lloyd and Ferguson Camping Max 86",23,9,13,7036000.00,313,3.1,2024-09-15 19:26:40.951465,t
+70,Zavala Group Camping Pro 1,23,4,43,12099000.00,295,4.8,2024-11-03 02:23:48.752901,t
+71,Ryan Group Shoes Max 35,9,18,17,1474000.00,155,4.6,2024-09-15 15:57:28.163697,t
+72,Mcdaniel and Sons Men's Clothing Lite 18,7,17,21,951000.00,14,4.8,2024-12-31 04:34:59.25996,t
+73,Hernandez-Harvey Cycling Air 70,24,13,37,13680000.00,107,4.3,2024-08-03 06:25:47.470321,t
+74,Schmitt-Campbell Cookware Ultra 92,13,7,37,8708000.00,307,3.4,2024-11-03 07:17:13.898488,t
+75,Mccann Group Furniture Air 26,12,19,34,1834000.00,130,4.9,2024-08-10 08:13:07.16952,t
+76,Mcdaniel and Sons Cookware Max 89,13,17,41,6039000.00,272,4.1,2024-10-26 19:39:36.066765,t
+77,Thompson-Webb Bags Air 62,10,8,39,1340000.00,63,4.8,2024-11-22 21:41:20.08532,t
+78,Dougherty and Sons Laptops Lite 72,3,15,28,6296000.00,320,4.9,2024-12-26 06:02:08.299555,f
+79,Moreno-Anderson Men's Clothing Max 10,7,2,21,2438000.00,478,5.0,2024-12-30 21:15:12.314243,t
+80,Weaver-Kline Fitness Equipment Air 40,22,12,2,9668000.00,169,4.0,2024-08-02 12:38:29.826988,t
+81,Moreno-Anderson Mobile Phones Ultra 8,2,2,34,46590000.00,47,4.9,2024-09-05 19:42:38.319481,t
+82,Moreno-Anderson Women's Clothing Pro 35,8,2,42,243000.00,21,3.4,2024-12-28 22:22:11.997698,t
+83,Thompson-Webb Shoes Max 35,9,8,14,269000.00,137,4.8,2024-12-24 12:42:17.184164,t
+84,Mcdaniel and Sons Women's Clothing Pro 94,8,17,3,591000.00,42,3.4,2024-11-04 06:28:52.614128,t
+85,Barrett-Oliver Bags Lite 38,10,6,5,2414000.00,254,4.2,2024-11-18 10:23:40.050452,f
+86,Mcdaniel and Sons Mobile Phones Mini 6,2,17,28,46882000.00,67,4.8,2024-10-06 21:24:30.727771,t
+87,Mccann Group Supplements Air 50,20,19,21,816000.00,350,5.0,2024-12-28 22:10:20.760018,t
+88,Moreno-Anderson Camping Air 44,23,2,8,2015000.00,379,3.9,2024-09-19 02:44:51.374816,t
+89,Mcdaniel and Sons Sportswear Plus 5,25,17,32,14349000.00,275,3.5,2024-12-16 14:34:41.753484,t
+90,Mccoy Group Fitness Equipment Air 94,22,16,11,8164000.00,456,4.1,2024-08-05 10:34:22.855377,t
+91,Stafford-Miller Fitness Equipment Max 78,22,1,9,13374000.00,44,5.0,2024-07-20 23:20:57.489253,t
+92,Dougherty and Sons Home Decor Lite 46,15,15,28,2000000.00,355,3.3,2024-10-22 17:45:42.509039,t
+93,Zavala Group Laptops Pro 39,3,4,46,15043000.00,68,4.5,2024-11-22 17:31:05.402664,t
+94,"Gross, Howard and Brown Fitness Equipment Ultra 99",22,5,12,6371000.00,74,4.0,2024-09-24 15:48:18.259915,t
+95,Thompson-Webb Shoes Air 84,9,8,32,1798000.00,404,3.5,2024-12-22 12:49:36.223021,f
+96,Aguilar Inc Camping Max 8,23,10,26,10414000.00,138,4.5,2024-11-23 01:47:44.986131,t
+97,"Martin, Lloyd and Ferguson Mobile Phones Air 47",2,9,17,12236000.00,464,3.5,2024-06-19 15:07:29.905843,t
+98,Mccoy Group Home Decor Mini 80,15,16,27,4585000.00,65,4.6,2024-10-12 23:33:45.160072,t
+99,Thompson-Webb Furniture Mini 11,12,8,35,8683000.00,340,3.7,2024-09-27 16:04:16.330572,t
+100,Stafford-Miller Headphones Lite 52,4,1,9,44448000.00,263,4.8,2024-07-19 02:16:18.291539,t

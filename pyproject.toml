@@ -1,0 +1,21 @@
+[project]
+name = "ecommerce-synthetic-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "dottienguyen23", email = "dottienguyen23@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "faker>=40.44.0",
+    "psycopg[binary]>=3.3.8",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+ecommerce-synthetic-data = "ecommerce_synthetic_data:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
